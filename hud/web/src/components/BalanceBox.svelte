@@ -3,7 +3,7 @@
 	export let amount = 0;
 	export let color = "#ffffff";
 
-	$: styleColor = `colro ${color};`; // Reactive statement for styling
+	$: styleColor = `color ${color};`; // Reactive statement for styling
 </script>
 
 <div class="balance-box" style={styleColor}>
